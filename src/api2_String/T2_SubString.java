@@ -17,9 +17,10 @@ public class T2_SubString {
 		
 		
 		// Ko~로 단어를 출력 indexOf 이용 (위치 찾기)
-		System.out.println("Ko ~ " + msg1.indexOf("Ko"));
-		System.out.println("!!! " + msg1.indexOf("!!!"));
-		System.out.println("Korea : " + msg1.substring(msg1.indexOf("Ko"), msg1.indexOf("!!!")));
+		System.out.println("3. Ko ~ " + msg1.indexOf("Ko"));
+		System.out.println("4. !!! " + msg1.indexOf("!!!"));
+		System.out.println("5. Korea : " + msg1.substring(msg1.indexOf("Ko"), msg1.indexOf("!!!")));
+		System.out.println("6. Korea : " + msg1.substring(msg1.indexOf("Welcome"), msg1.indexOf("!!!")));
 		
 	}
 }
